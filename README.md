@@ -1,25 +1,68 @@
 # ShadowKingAutomationPackPublicPreview
 
-Public preview of a **PowerShell-first “routine launcher”** concept: safe sample routines + docs.
+Public preview of a **PowerShell-first “routine launcher”** concept: safe samples + docs.
+
+This repo is intentionally **safe-by-default**: no background services, no telemetry, and **no system-tweaking** routines in the public preview.
+
+---
+
+## Quick Links
+- 🚀 Quick Start: `docs/QuickStart.md`
+- 🧾 Logging & Exit Codes: `docs/LoggingAndExitCodes.md`
+- 🛡️ Safety: `docs/SAFETY.md`
+- 🧩 Samples (safe routines): `samples/`
+- 🧪 Routine Template: `routines/_Template.ps1`
+- 📌 Changelog: `CHANGELOG.md`
+- 🤝 Contributing: `CONTRIBUTING.md`
+- 🔐 Security: `SECURITY.md`
+
+---
 
 ## What this is
-A small framework for running **user-triggered routines** to make Windows handheld/PC setup repeatable (session prep, performance mode workflow, cleanup, restore baseline pattern).
+A small framework for running **user-triggered routines** to make Windows handheld/PC setup repeatable
+(session prep, workflow mode switching patterns, cleanup, restore-baseline patterns).
+
+The goal is **clarity + control**:
+- You run it manually (no hidden automation)
+- Every action is readable in PowerShell
+- Output is logged and uses consistent exit codes
+
+---
 
 ## What this Public Preview includes
 - ✅ Docs in `/docs`
 - ✅ Safe sample routines in `/samples` (**no system tweaks**)
+- ✅ Routine template in `/routines`
 - ✅ No background services
 - ✅ No telemetry
 - ✅ Everything readable in scripts/docs
 
+---
+
 ## What this does NOT include
-- ❌ The full private/buyer routine pack
-- ❌ Any aggressive tweaks (registry edits, undervolt/overclock, hidden services, etc.)
+- ❌ The full private/buyer routine pack (device-specific workflows, optional app control, deeper tuning logic)
+- ❌ Aggressive tweaks (registry edits, undervolt/overclock, hidden services, etc.)
+
+---
+
+## Repo layout
+- `docs/` — documentation
+- `samples/` — **safe** sample routines (public preview)
+- `routines/` — routine slots + template (public preview)
+- `RunPack.ps1` / `RunPack.bat` — pack launcher entrypoints
+- `SessionPrep.ps1` — safe starter routine (public preview)
+- `CleanupSession.ps1` — safe cleanup routine (public preview)
+- `RestoreBaseline.ps1` — safe restore pattern (public preview)
+
+> Note: The public preview focuses on safe examples + structure.  
+> The private/buyer pack contains additional routines (including LaptopMode/RestoreLaptopMode patterns).
+
+---
 
 ## Quick Start (safe sample)
-1. Code → **Download ZIP**
-2. Unzip
-3. Open PowerShell in the folder
-4. Run:
+1. Click **Code → Download ZIP**
+2. Unzip to a folder (example: `C:\ShadowKingPreview\`)
+3. Open PowerShell **in that folder**
+4. Run a safe sample:
    ```powershell
-   ./samples/SampleRoutine-Hello.ps1
+   powershell -NoProfile -ExecutionPolicy Bypass -File .\samples\SampleRoutine-Hello.ps1
