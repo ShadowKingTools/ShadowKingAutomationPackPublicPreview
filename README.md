@@ -59,6 +59,17 @@ The goal is **clarity + control**:
 
 ---
 
+## Who this is for
+
+This pack is for users who want:
+- Manual, transparent control (no hidden automation)
+- Repeatable workflows for Windows handhelds / PCs
+- Scripts they can read, modify, and trust
+
+This is **not** a one-click optimizer or "set-and-forget" tuning tool.
+it is a framework you run intentionally.
+This project prioritizes long-term system trust over short-term performance gains.
+
 ## Quick Start (safe sample)
 1. Click **Code → Download ZIP**
 2. Unzip to a folder (example: `C:\ShadowKingPreview\`)
