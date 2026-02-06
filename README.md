@@ -77,3 +77,16 @@ This project prioritizes long-term system trust over short-term performance gain
 4. Run a safe sample:
    ```powershell
    powershell -NoProfile -ExecutionPolicy Bypass -File .\samples\SampleRoutine-Hello.ps1
+
+## 💼 Get the Full Version (v1.1+)
+
+The full Automation Pack includes:
+
+✅ Laptop Mode  
+✅ One-click Restore  
+✅ Performance Profiles  
+✅ Launcher  
+✅ Priority Updates  
+
+👉 Buy here:
+https://shadowking73.gumroad.com/l/wgzwo
