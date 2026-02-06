@@ -78,7 +78,7 @@ This project prioritizes long-term system trust over short-term performance gain
    ```powershell
    powershell -NoProfile -ExecutionPolicy Bypass -File .\samples\SampleRoutine-Hello.ps1
 
-## 💼 Get the Full Version (v1.1+)
+## 💼 Get the Full Version (Paid v1.1+)
 
 The full Automation Pack includes:
 
@@ -88,5 +88,4 @@ The full Automation Pack includes:
 ✅ Launcher  
 ✅ Priority Updates  
 
-👉 Buy here:
-https://shadowking73.gumroad.com/l/wgzwo
+👉 Buy the full version (v1.1+) here: https://shadowking73.gumroad.com/l/wgzwo
