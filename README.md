@@ -88,4 +88,6 @@ The full Automation Pack includes:
 ✅ Launcher  
 ✅ Priority Updates  
 
+Includes full docs + safety restore + all profiles.
+
 👉 Buy the full version (v1.1+) here: https://shadowking73.gumroad.com/l/wgzwo
