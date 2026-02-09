@@ -1,5 +1,5 @@
 # ShadowKingAutomationPackPublicPreview
-Last updated: 2/3/2026
+Last updated: 2/9/2026
 Public preview of a **PowerShell-first “routine launcher”** concept: safe samples + docs.
 
 This repo is intentionally **safe-by-default**: no background services, no telemetry, and **no system-tweaking** routines in the public preview.
