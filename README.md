@@ -1,93 +1,76 @@
-# ShadowKingAutomationPackPublicPreview
-Last updated: 2/9/2026
-Public preview of a **PowerShell-first “routine launcher”** concept: safe samples + docs.
+# Shadow King Automation Pack (Public Preview)
+updated: 02/09/2026
+A clean, reversible Windows “game mode” workflow for handhelds and gaming PCs.
 
-This repo is intentionally **safe-by-default**: no background services, no telemetry, and **no system-tweaking** routines in the public preview.
+Built for devices like:
+- ROG Ally / Ally X
+- Legion Go
+- Other Windows-based handhelds
 
----
-
-## Quick Links
-- 🚀 Quick Start: `docs/QuickStart.md`
-- 🧾 Logging & Exit Codes: `docs/LoggingAndExitCodes.md`
-- 🛡️ Safety: `docs/SAFETY.md`
-- 🧩 Samples (safe routines): `samples/`
-- 🧪 Routine Template: `routines/_Template.ps1`
-- 📌 Changelog: `CHANGELOG.md`
-- 🤝 Contributing: `CONTRIBUTING.md`
-- 🔐 Security: `SECURITY.md`
+This project exists because I got tired of manually tweaking Windows every time I wanted to game.
 
 ---
 
-## What this is
-A small framework for running **user-triggered routines** to make Windows handheld/PC setup repeatable
-(session prep, workflow mode switching patterns, cleanup, restore-baseline patterns).
+## What This Does
 
-The goal is **clarity + control**:
-- You run it manually (no hidden automation)
-- Every action is readable in PowerShell
-- Output is logged and uses consistent exit codes
+This pack helps you:
 
----
+- Reduce background CPU/RAM usage
+- Disable unnecessary services while gaming
+- Optimize power/performance balance
+- Restore everything when you’re done
 
-## What this Public Preview includes
-- ✅ Docs in `/docs`
-- ✅ Safe sample routines in `/samples` (**no system tweaks**)
-- ✅ Routine template in `/routines`
-- ✅ No background services
-- ✅ No telemetry
-- ✅ Everything readable in scripts/docs
+No registry hacks.  
+No permanent changes.  
+No bloat.
+
+Everything is reversible.
 
 ---
 
-## What this does NOT include
-- ❌ The full private/buyer routine pack (device-specific workflows, optional app control, deeper tuning logic)
-- ❌ Aggressive tweaks (registry edits, undervolt/overclock, hidden services, etc.)
+## Why Not Just Use Max TDP?
+
+On most modern APUs, pushing past ~22–25W often gives diminishing returns.
+
+More watts usually means:
+- More heat
+- More fan noise
+- Less battery life
+- Minimal FPS gain
+
+This workflow focuses on efficiency, not brute force.
 
 ---
 
-## Repo layout
-- `docs/` — documentation
-- `samples/` — **safe** sample routines (public preview)
-- `routines/` — routine slots + template (public preview)
-- `RunPack.ps1` / `RunPack.bat` — pack launcher entrypoints
-- `SessionPrep.ps1` — safe starter routine (public preview)
-- `CleanupSession.ps1` — safe cleanup routine (public preview)
-- `RestoreBaseline.ps1` — safe restore pattern (public preview)
+## How It Works
 
-> Note: The public preview focuses on safe examples + structure.  
-> The private/buyer pack contains additional routines (including LaptopMode/RestoreLaptopMode patterns).
+1. Run the optimization script before gaming
+2. Play
+3. Run the restore script when finished
+
+That’s it.
+
+Your system goes back to normal.
 
 ---
 
-## Who this is for
+## Safety & Transparency
 
-This pack is for users who want:
-- Manual, transparent control (no hidden automation)
-- Repeatable workflows for Windows handhelds / PCs
-- Scripts they can read, modify, and trust
+- All scripts are readable
+- No hidden processes
+- No telemetry
+- No startup installs
+- No background services
 
-This is **not** a one-click optimizer or "set-and-forget" tuning tool.
-it is a framework you run intentionally.
-This project prioritizes long-term system trust over short-term performance gains.
+If you don’t like it, delete it.
 
-## Quick Start (safe sample)
-1. Click **Code → Download ZIP**
-2. Unzip to a folder (example: `C:\ShadowKingPreview\`)
-3. Open PowerShell **in that folder**
-4. Run a safe sample:
-   ```powershell
-   powershell -NoProfile -ExecutionPolicy Bypass -File .\samples\SampleRoutine-Hello.ps1
+Nothing is left behind.
 
-## 💼 Get the Full Version (Paid v1.1+)
+---
 
-The full Automation Pack includes:
+## Getting Started
 
-✅ Laptop Mode  
-✅ One-click Restore  
-✅ Performance Profiles  
-✅ Launcher  
-✅ Priority Updates  
+Clone or download this repo:
 
-Includes full docs + safety restore + all profiles.
-
-👉 Buy the full version (v1.1+) here: https://shadowking73.gumroad.com/l/wgzwo
+```bash
+git clone https://github.com/ShadowKingTools/ShadowKingAutomationPackPublicPreview
