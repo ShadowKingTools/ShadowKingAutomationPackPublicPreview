@@ -1,76 +1,127 @@
 # Shadow King Automation Pack (Public Preview)
-updated: 02/09/2026
-A clean, reversible Windows “game mode” workflow for handhelds and gaming PCs.
+
+A clean, reversible “game mode” workflow for Windows handhelds and gaming PCs.
 
 Built for devices like:
-- ROG Ally / Ally X
-- Legion Go
-- Other Windows-based handhelds
+- ROG Ally / Ally X  
+- Legion Go  
+- Windows-based handhelds  
+- Compact gaming PCs  
 
-This project exists because I got tired of manually tweaking Windows every time I wanted to game.
+This project focuses on improving performance, stability, and battery life
+without permanent system changes.
+
+---
+
+## Why This Exists
+
+If you game on Windows handhelds, you’ve probably dealt with:
+
+- Background services eating performance  
+- Inconsistent FPS  
+- Random stutter  
+- Battery drain  
+- Having to “re-tweak” Windows constantly  
+
+I got tired of fixing the same things over and over.
+
+So I started building a repeatable, reversible setup
+that puts the system into a clean “game mode”
+and restores everything when you’re done.
+
+No registry hacks.  
+No risky scripts.  
+No permanent changes.
 
 ---
 
 ## What This Does
 
-This pack helps you:
+This automation pack helps you:
 
-- Reduce background CPU/RAM usage
-- Disable unnecessary services while gaming
-- Optimize power/performance balance
-- Restore everything when you’re done
+- Reduce unnecessary background activity  
+- Prioritize game-related processes  
+- Improve frame consistency  
+- Reduce heat and power waste  
+- Restore default settings afterward  
 
-No registry hacks.  
-No permanent changes.  
-No bloat.
-
-Everything is reversible.
-
----
-
-## Why Not Just Use Max TDP?
-
-On most modern APUs, pushing past ~22–25W often gives diminishing returns.
-
-More watts usually means:
-- More heat
-- More fan noise
-- Less battery life
-- Minimal FPS gain
-
-This workflow focuses on efficiency, not brute force.
+Everything is designed to be transparent and reversible.
 
 ---
 
 ## How It Works
 
-1. Run the optimization script before gaming
-2. Play
-3. Run the restore script when finished
+The workflow is built around:
 
-That’s it.
+- Power and process tuning  
+- Background task cleanup  
+- Priority management  
+- Optional device profiles  
+- Restore routines  
 
-Your system goes back to normal.
+You can review all scripts and routines in this repository.
+
+Nothing runs silently.
+Nothing is hidden.
 
 ---
 
-## Safety & Transparency
+## Safety & Philosophy
 
-- All scripts are readable
-- No hidden processes
-- No telemetry
-- No startup installs
-- No background services
+This project follows three rules:
 
-If you don’t like it, delete it.
+1. No permanent system modification  
+2. No undocumented changes  
+3. No vendor lock-in  
 
-Nothing is left behind.
+If something doesn’t work for you,
+you can undo it in seconds.
+
+This is meant to help you understand and control your device,
+not lock you into a black box.
 
 ---
 
 ## Getting Started
 
-Clone or download this repo:
+1. Review the repository structure  
+2. Read the documentation in `/docs`  
+3. Check `/routines` for automation logic  
+4. Test on your device  
+5. Adjust as needed  
 
-```bash
-git clone https://github.com/ShadowKingTools/ShadowKingAutomationPackPublicPreview
+This is a public preview and still evolving.
+
+Feedback is welcome.
+
+---
+
+## Optional: Expanded Version
+
+This public preview shows the structure and approach.
+
+I also maintain a more polished version with:
+
+- Guided installer  
+- Preset profiles  
+- Auto-restore tools  
+- Device-specific tuning  
+- Ongoing updates  
+
+Details here:
+👉 https://your-gumroad-link
+
+No pressure.
+
+The public version will always remain available.
+
+---
+
+## Feedback & Contributions
+
+If you have ideas, improvements, or test results,
+feel free to open an issue or start a discussion.
+
+This project grows through real-world use.
+
+Thanks for checking it out.
