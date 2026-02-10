@@ -108,8 +108,8 @@ I also maintain a more polished version with:
 - Device-specific tuning  
 - Ongoing updates  
 
-Details here:
-👉 https://your-gumroad-link
+👉Details here:
+https://shadowking73.gumroad.com/l/wgzwo
 
 No pressure.
 
