@@ -116,6 +116,23 @@ No pressure.
 The public version will always remain available.
 
 ---
+## 🚀 v1.2 Public Upgrade Roadmap
+
+This project is actively maintained and improved based on real-world usage and community feedback.
+
+Planned features and enhancements:
+- Smarter power profile presets
+- Expanded background service detection
+- Battery-focused optimization mode
+- Improved one-click restore reliability
+- Optional lightweight launcher
+- Community-requested quality-of-life tools
+
+Early supporters help shape development priorities.
+
+All buyers receive future updates automatically.
+
+---
 
 ## Feedback & Contributions
 
