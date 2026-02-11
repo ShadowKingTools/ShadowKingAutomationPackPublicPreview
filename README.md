@@ -1,5 +1,6 @@
 # Shadow King Automation Pack (Public Preview)
-Last update: 02/11/2026
+
+Last updated: 02/11/2026
 
 A clean, reversible “game mode” workflow for Windows handhelds and gaming PCs.
 
