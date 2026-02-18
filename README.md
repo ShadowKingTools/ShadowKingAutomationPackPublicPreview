@@ -2,12 +2,12 @@
 
 Last updated: 02/18/2026
 
-A clean, reversible “game mode” workflow for Windows handhelds and gaming PCs.
+A clean, reversible “game mode” workflow for Windows OS. 
 
 Built for devices like:
 ✅ Desktop PCs
-✅ Gaming Laptops
-✅ Windows-based handelds(Rog Ally/Ally X, Legion Go)
+✅ Laptops
+✅ Windows-based handelds(Rog Ally/Ally X, Legion Go,etc.)
 
 
 This project focuses on improving performance, stability, and battery life
