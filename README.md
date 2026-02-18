@@ -1,14 +1,14 @@
 # Shadow King Automation Pack (Public Preview)
 
-Last updated: 02/11/2026
+Last updated: 02/18/2026
 
 A clean, reversible “game mode” workflow for Windows handhelds and gaming PCs.
 
 Built for devices like:
-- ROG Ally / Ally X  
-- Legion Go  
-- Windows-based handhelds  
-- Compact gaming PCs  
+✅ Desktop PCs
+✅ Gaming Laptops
+✅ Windows-based handelds(Rog Ally/Ally X, Legion Go)
+
 
 This project focuses on improving performance, stability, and battery life
 without permanent system changes.
