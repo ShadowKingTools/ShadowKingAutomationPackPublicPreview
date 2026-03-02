@@ -1,13 +1,13 @@
 # Shadow King Automation Pack (Public Preview)
 
-Last updated: 02/18/2026
+Last updated: 03/02/2026
 
-A clean, reversible “game mode” workflow for Windows OS. 
+A reversible Windows Game Mode built as a deterministic system-state framework.
 
-Built for devices like:
-✅ Desktop PCs
-✅ Laptops
-✅ Windows-based handelds(Rog Ally/Ally X, Legion Go,etc.)
+Offline. Logged. Config-driven. No telemetry.
+
+Built for desktop PCs, laptops, and Windows handhelds (ROG Ally/Ally X, Legion Go, etc.).
+Improves performance, stability, and battery life — without registry edits or permanent system changes.
 
 
 This project focuses on improving performance, stability, and battery life
